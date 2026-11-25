@@ -16,6 +16,8 @@ In Antigravity, run `agy plugin install https://github.com/obsidianmd/obsidian-s
 
 In Grok Bot, add [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845).
 
+In Muse, ask it to install the skills from this repository. The `obsidian-cli` skill doesn't work there, because Muse runs in Meta's cloud.
+
 In Cursor, install [Obsidian from the Cursor Marketplace](https://cursor.com/marketplace/obsidian).
 
 In Hermes Agent, run `hermes plugins install obsidian`.
