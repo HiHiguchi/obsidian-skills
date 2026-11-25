@@ -1,10 +1,10 @@
 Agent Skills for use with Obsidian.
 
-These skills follow the [Agent Skills specification](https://agentskills.io/specification), so they work with any agent that supports skills, including Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, and [many more](https://agentskills.io/clients).
+These skills follow the [Agent Skills specification](https://agentskills.io/specification), so they work with any agent that supports skills, including Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, and [many more](https://agentskills.io/clients).
 
 ## Installation
 
-Obsidian is an official plugin for Claude, ChatGPT, Dots, Cursor, Grok Bot, and Hermes. Most other agents can install the skills from GitHub.
+Obsidian is an official plugin for Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, and Kiro. Most other agents can install the skills from GitHub.
 
 ### Claude
 
@@ -58,6 +58,12 @@ Install [Obsidian](https://cursor.com/marketplace/obsidian) from the Cursor Mark
 
 ```sh
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```sh
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode, and other agents
