@@ -6,6 +6,7 @@ These skills follow the [Agent Skills specification](https://agentskills.io/spec
 
 Obsidian is an official plugin for:
 
+- [Claude](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory)
 - [ChatGPT and Codex](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096)
 - [Cursor](https://cursor.com/marketplace/obsidian)
 - [Grok Bot](https://x.ai/bot/plugin/88871845)

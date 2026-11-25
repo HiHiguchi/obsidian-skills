@@ -10,6 +10,8 @@ In Claude Code:
 /plugin install obsidian --marketplace obsidianmd/obsidian-skills
 ```
 
+In Claude, add [Obsidian from the plugin directory](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory).
+
 In ChatGPT or Codex, install [Obsidian from the plugin directory](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096).
 
 In Cursor, install [Obsidian from the Cursor Marketplace](https://cursor.com/marketplace/obsidian).

@@ -1,6 +1,6 @@
 {
   "name": "obsidian",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Work with local Obsidian vaults using the Obsidian CLI and skills for Markdown, Bases, Canvas, Sync and Publish, web extraction, and templates.",
   "author": {
     "name": "Obsidian",
@@ -17,5 +17,9 @@
     "pkm",
     "notes"
   ],
-  "icon": "./assets/icon.png"
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://obsidian.md/help/skills",
+  "supportUrl": "https://obsidian.md/help/resources",
+  "privacyPolicyUrl": "https://obsidian.md/privacy",
+  "termsOfServiceUrl": "https://obsidian.md/terms"
 }
