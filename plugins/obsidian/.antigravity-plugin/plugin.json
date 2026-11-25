@@ -1,0 +1,28 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "obsidian",
+  "displayName": "Obsidian",
+  "version": "1.2.3",
+  "description": "Work with local Obsidian vaults using the Obsidian CLI and skills for Markdown, Bases, Canvas, Sync and Publish, web extraction, and templates.",
+  "author": {
+    "name": "Obsidian",
+    "url": "https://obsidian.md/"
+  },
+  "homepage": "https://obsidian.md/help/skills",
+  "repository": "https://github.com/obsidianmd/obsidian-skills",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "markdown",
+    "bases",
+    "canvas",
+    "pkm",
+    "notes"
+  ],
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Find notes about my current project and summarize the open tasks.",
+    "Create a reading list Base from the books in my vault.",
+    "Make a Canvas connecting the main ideas in these notes."
+  ]
+}

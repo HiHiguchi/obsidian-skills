@@ -12,6 +12,7 @@ files=(
   "plugins/obsidian/plugin.json"
   "plugins/obsidian/.claude-plugin/plugin.json"
   "plugins/obsidian/.cursor-plugin/plugin.json"
+  "plugins/obsidian/.antigravity-plugin/plugin.json"
   "plugins/obsidian/gemini-extension.json"
   ".claude-plugin/marketplace.json"
 )
