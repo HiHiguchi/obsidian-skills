@@ -18,6 +18,8 @@ In Cursor, install [Obsidian from the Cursor Marketplace](https://cursor.com/mar
 
 In Grok Bot, add [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845).
 
+In Hermes Agent, run `hermes plugins install obsidian`.
+
 ## Requirements
 
 The CLI skill runs the `obsidian` command, which needs the Obsidian desktop app installed, running, and with the CLI turned on. See https://help.obsidian.md/cli for setup. It needs a host that can run local commands, such as Claude Code, Codex, Cursor, or a desktop app session on your computer.

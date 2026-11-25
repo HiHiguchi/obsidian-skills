@@ -10,6 +10,7 @@ Obsidian is an official plugin for:
 - [ChatGPT and Codex](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096)
 - [Cursor](https://cursor.com/marketplace/obsidian)
 - [Grok Bot](https://x.ai/bot/plugin/88871845)
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/obsidian.yaml)
 
 ### Claude Code marketplace
 
