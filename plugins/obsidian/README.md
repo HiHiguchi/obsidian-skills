@@ -4,19 +4,19 @@ Skills for working with Obsidian vaults: Obsidian Markdown, Bases, Canvas, the O
 
 ## Install
 
-In Claude Code:
+In Claude, add [Obsidian from the plugin directory](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory). In Claude Code, run:
 
 ```
 /plugin install obsidian --marketplace obsidianmd/obsidian-skills
 ```
 
-In Claude, add [Obsidian from the plugin directory](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory).
+In ChatGPT, Codex, or Dots, install [Obsidian from the plugin directory](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096).
 
-In ChatGPT or Codex, install [Obsidian from the plugin directory](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096).
-
-In Cursor, install [Obsidian from the Cursor Marketplace](https://cursor.com/marketplace/obsidian).
+In Antigravity, run `agy plugin install https://github.com/obsidianmd/obsidian-skills`.
 
 In Grok Bot, add [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845).
+
+In Cursor, install [Obsidian from the Cursor Marketplace](https://cursor.com/marketplace/obsidian).
 
 In Hermes Agent, run `hermes plugins install obsidian`.
 

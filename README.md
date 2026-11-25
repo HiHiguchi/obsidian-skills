@@ -1,20 +1,16 @@
 Agent Skills for use with Obsidian.
 
-These skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.
+These skills follow the [Agent Skills specification](https://agentskills.io/specification), so they work with any agent that supports skills, including Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, and [many more](https://agentskills.io/clients).
 
 ## Installation
 
-Obsidian is an official plugin for:
+Obsidian is an official plugin for Claude, ChatGPT, Dots, Cursor, Grok Bot, and Hermes. Most other agents can install the skills from GitHub.
 
-- [Claude](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory)
-- [ChatGPT and Codex](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096)
-- [Cursor](https://cursor.com/marketplace/obsidian)
-- [Grok Bot](https://x.ai/bot/plugin/88871845)
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/obsidian.yaml)
+### Claude
 
-### Claude Code marketplace
+Add [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) from the official Claude plugin directory.
 
-From terminal:
+For the Claude Code CLI use:
 
 ```sh
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -30,9 +26,11 @@ From within a Claude Code session:
 
 To get new skills later, run `claude plugin update obsidian@obsidian-skills`.
 
-### Codex marketplace
+### ChatGPT
 
-To install from this repo instead of the [ChatGPT plugin directory](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096):
+Add [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) from the ChatGPT plugin directory. The plugin works in ChatGPT, Codex, and Dots.
+
+To install from this repo instead:
 
 ```sh
 codex plugin marketplace add obsidianmd/obsidian-skills
@@ -40,45 +38,37 @@ codex plugin marketplace add obsidianmd/obsidian-skills
 
 Then install Obsidian from the plugin directory in Codex or the ChatGPT desktop app.
 
-### npx skills
+### Antigravity
+
+In the Antigravity CLI, run:
+
+```sh
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Open [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) and select **Add to Grok Bot**.
+
+### Cursor
+
+Install [Obsidian](https://cursor.com/marketplace/obsidian) from the Cursor Marketplace.
+
+### Hermes Agent
+
+```sh
+hermes plugins install obsidian
+```
+
+### GitHub Copilot, OpenCode, and other agents
+
+Install with [npx skills](https://github.com/vercel-labs/skills), which asks which agents to install into:
 
 ```sh
 npx skills add https://github.com/obsidianmd/obsidian-skills
 ```
 
-To use ssh instead, if you have a GitHub SSH key set up:
-
-```sh
-npx skills add git@github.com:obsidianmd/obsidian-skills.git
-```
-
-### Gemini CLI
-
-```sh
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
-```
-
-### Manually
-
-#### Claude Code
-
-Copy the `plugins/obsidian/skills/` directory to `.claude/skills/` in the root of your Obsidian vault (or whichever folder you're using with Claude Code). See more in the [official Claude Skills documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview).
-
-#### Codex
-
-Copy the `plugins/obsidian/skills/` directory into your Codex skills path (typically `~/.agents/skills`). See the [Agent Skills specification](https://agentskills.io/specification) for the standard skill format.
-
-#### OpenCode
-
-Clone the entire repo into the OpenCode skills directory (`~/.opencode/skills/`):
-
-```sh
-git clone https://github.com/obsidianmd/obsidian-skills.git ~/.opencode/skills/obsidian-skills
-```
-
-Do not copy only the inner `skills/` folder — clone the full repo so the directory structure is `~/.opencode/skills/obsidian-skills/plugins/obsidian/skills/<skill-name>/SKILL.md`.
-
-OpenCode auto-discovers all `SKILL.md` files under `~/.opencode/skills/`. No changes to `opencode.json` or any config file are needed. Skills become available after restarting OpenCode.
+To install by hand, copy the folders in `plugins/obsidian/skills/` into your agent's skills folder, e.g. `~/.copilot/skills/` for GitHub Copilot.
 
 ## Release maintenance
 
